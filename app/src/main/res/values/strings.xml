@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FlamingoPatisserie</string>
+    <string name="flamingo_patisserie">Flamingo Patisserie</string>
+    <string name="how_to_find_us">How to find us:</string>
+    <string name="location">Vasilissis Sofias Avenue , 117 , 10218 , Athens.</string>
+    <string name="clocktxt1">Tuesday-Thursday-Friday : 8:00am-20:00pm.</string>
+    <string name="clocktxt2">Monday-Wednesday-Saturday: 8:00am-15:00pm.</string>
+    <string name="clocktxt3">Sunday Closed.</string>
+    <string name="phonetxt">+30 2394449923.</string>
+    <string name="chrometxt">https://FlamingoPatisserie.gr</string>
+    <string name="sweetentxt">Sweeten up your day !</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="colorPrimary">#3F51B5</color>
+<color name="colorPrimaryDark">#303F9F</color>
+<color name="colorAccent">#FF4081</color>
+<color name="colorFlamingoText">#D50000</color>
+<color name="colorFindusText">#4A148C</color>
+<color name="colorPlaceText">#FF4081</color>
+<color name="colorClockText1">#FF4081</color>
+<color name="colorClockText2">#FF4081</color>
+<color name="colorClockText3">#FF4081</color>
+<color name="colorPhoneText">#FF4081</color>
+<color name="colorChromeText">#FF4081</color>
+<color name="sweetenText">#4A148C</color>
+</resources>

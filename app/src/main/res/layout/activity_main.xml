@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCE4EC"
+    tools:context="com.example.android.flamingopatisserie.MainActivity">
+
+    <LinearLayout
+        style="@style/FirstLinearLayout">
+
+        <TextView
+            android:text="@string/flamingo_patisserie"
+            style="@style/FlamingoText"/>
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/FindUsText"
+            android:text="@string/how_to_find_us" />
+
+        <ImageView
+            android:src="@drawable/sweet"
+            style="@style/SweetImage"/>
+
+        <LinearLayout
+           style="@style/PlaceLinearLayout">
+            
+            <ImageView
+                android:src="@drawable/marker"
+                style="@style/PlaceImage"/>
+
+            <TextView
+               android:text="@string/location"
+               style="@style/PlaceText"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/ClockLinearLayout">
+
+            <ImageView
+                android:src="@drawable/clock3"
+                style="@style/ClockImage"/>
+
+            <LinearLayout
+                style="@style/ClockTextLinearLayout">
+
+                <TextView
+                    android:text="@string/clocktxt1"
+                    style="@style/ClockText1"/>
+
+                <TextView
+                    android:text="@string/clocktxt2"
+                    style="@style/ClockText2"/>
+
+                <TextView
+                   android:text="@string/clocktxt3"
+                   style="@style/ClockText3"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/PhoneLinearLayout">
+
+            <ImageView
+                android:src="@drawable/phone2"
+                style="@style/PhoneImage"/>
+
+            <TextView
+                android:text="@string/phonetxt"
+                style="@style/PhoneText"/>
+        </LinearLayout>
+
+        <LinearLayout
+           style="@style/ChromeLinearLayout">
+
+            <ImageView
+                android:src="@drawable/chrome"
+                style="@style/ChromeImage"/>
+
+            <TextView
+                android:text="@string/chrometxt"
+                style="@style/ChromeText"/>
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/sweetentxt"
+            style="@style/SweetenText"/>
+    </LinearLayout>
+</ScrollView>

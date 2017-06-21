@@ -1,0 +1,169 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="FirstLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="FlamingoText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textSize">@dimen/flamingo_text_size</item>
+        <item name="android:background">@drawable/bgnd</item>
+        <item name="android:textColor">@color/colorFlamingoText</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">4dp</item>
+    </style>
+
+    <style name="SweetImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="FindUsText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:background">#FF4081</item>
+        <item name="android:textSize">@dimen/findus_text_size</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">@color/colorFindusText</item>
+    </style>
+    
+    <style name="PlaceLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="PlaceImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">16dp</item>
+    </style>
+    
+    <style name="PlaceText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/place_text_size</item>
+        <item name="android:textColor">@color/colorPlaceText</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    
+    <style name="ClockLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="ClockImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+    </style>
+
+    <style name="ClockTextLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">16dp</item>
+    </style>
+
+    <style name="ClockText1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/clock_text1_size</item>
+        <item name="android:textColor">@color/colorClockText1</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <style name="ClockText2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/clock_text2_size</item>
+        <item name="android:textColor">@color/colorClockText2</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <style name="ClockText3">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/clock_text3_size</item>
+        <item name="android:textColor">@color/colorClockText3</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <style name="PhoneLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="PhoneImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+    </style>
+
+    <style name="PhoneText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/phone_text_size</item>
+        <item name="android:textColor">@color/colorPhoneText</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+    </style>
+
+    <style name="ChromeLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="ChromeImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">8dp</item>
+    </style>
+
+    <style name="ChromeText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/chrome_text_size</item>
+        <item name="android:textColor">@color/colorChromeText</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <style name="SweetenText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textSize">@dimen/sweeten_text_size</item>
+        <item name="android:background">#FF4081</item>
+        <item name="android:textColor">@color/sweetenText</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">4dp</item>
+    </style>
+</resources>
